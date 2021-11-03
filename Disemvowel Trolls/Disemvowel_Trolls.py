@@ -8,3 +8,7 @@ def disemvowel_trolls(sentence: str) -> str:
     vowels = "aeiouAEIOU"
 
     return ''.join([_ for _ in sentence if _ not in vowels])
+
+
+if __name__ == '__main__':
+    print(disemvowel_trolls('test string'))
