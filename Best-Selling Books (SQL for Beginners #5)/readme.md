@@ -10,14 +10,16 @@ NOTE: Your solution should use pure SQL. Ruby is used within the test cases just
 
 helper_table_insert_function.py - создает books.csv. поля name, author, copies_sold.
 				   1000 записей, author - случайное из 0-100, books_name - 					   уникальное, copies sold - случайное из 0-1000.
-				   
+
 books.csv - результат работы helper_table_insert_function.py
 books.db - база данных с таблицей best_sellers_book из books.csv
 best_sellers.sql - набор команд для создания БД и ответ на задачу
 
 Запуск и создание окружения:
-> sqlite3 books.db
-> .read best_sellers.sql
+
+`$ sqlite3 books.db`<br/>
+`sqlite> .read best_sellers.sql`
 
 Решение задачи:
-> .read five_best_books.sql
+
+`sqlite> .read five_best_books.sql`
