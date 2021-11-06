@@ -8,12 +8,20 @@ books table schema
 
 NOTE: Your solution should use pure SQL. Ruby is used within the test cases just to validate your answer.
 
+<<<<<<< HEAD:Best-Selling Books (SQL for Beginners #5)/readme.md
 helper_table_insert_function.py - создает books.csv. поля name, author, copies_sold.
 				   1000 записей, author - случайное из 0-100, books_name - 					   уникальное, copies sold - случайное из 0-1000.
 
+=======
+helper_table_insert_function.py - создает books.csv. поля name, author, copies_sold. 1000 записей, 
+				author - случайное из 0-100, 
+				books_name - уникальное, 
+				copies sold - случайное из 0-1000.
+				   
+>>>>>>> a2875e895cf226e93f884ce69a98d6ce2c114f91:Best-Selling Books (SQL for Beginners #5)/readme.txt
 books.csv - результат работы helper_table_insert_function.py
 books.db - база данных с таблицей best_sellers_book из books.csv
-best_sellers.sql - набор команд для создания БД и ответ на задачу
+best_sellers.sql - набор команд для создания БД 
 
 Запуск и создание окружения:
 
@@ -21,5 +29,12 @@ best_sellers.sql - набор команд для создания БД и от�
 `sqlite> .read best_sellers.sql`
 
 Решение задачи:
+<<<<<<< HEAD:Best-Selling Books (SQL for Beginners #5)/readme.md
 
 `sqlite> .read five_best_books.sql`
+=======
+> .read five_best_books.sql
+
+Требования к окружению:
+1. sqlite3
+>>>>>>> a2875e895cf226e93f884ce69a98d6ce2c114f91:Best-Selling Books (SQL for Beginners #5)/readme.txt
