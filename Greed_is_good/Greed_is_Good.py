@@ -12,4 +12,6 @@ def score(dice):
     result += 50 * (dice_copy.count(5) % 3)
     return result
 
-print (score([2, 4, 4, 5, 4]))
+if __name__ == "__main__":
+    test_dice = [2, 4, 4, 5, 4]
+    print (score(test_dice))
