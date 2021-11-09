@@ -22,7 +22,8 @@ def pick_peaks(arr):
         i += 1
     return answer
 
-
-print(pick_peaks([1,2,5,4,3,2,3,6,4,1,2,3,3,4,5,3,2,1,2,3,5,5,4,3]))
+if __name__ == "__main__":
+    test_array = [1,2,5,4,3,2,3,6,4,1,2,3,3,4,5,3,2,1,2,3,5,5,4,3]
+    print(pick_peaks(test_array))
 
 
