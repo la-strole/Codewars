@@ -26,3 +26,8 @@ def codewars_solution(start, end):
         for digit in str(box_number):
             result[int(digit)] += 1
     return result
+
+if __name__ == "__main__":
+    test_start = 1
+    test_end = 999
+    print(f"frequency of digits from 0 to 9 in sequence {test_start}-{test_end} = {letter_box(test_start, test_end)}")
