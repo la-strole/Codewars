@@ -8,5 +8,6 @@ def valid_parentheses(string):
         if result < 0:
             return False
     return not result
-
-print(valid_parentheses("(())"))
+if __name__ == "__main__":
+    test_string = "((()))"
+    print(valid_parentheses(test_string))
