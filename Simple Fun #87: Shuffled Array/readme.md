@@ -1,4 +1,5 @@
-Task
+# Simple Fun #87: Shuffled Array (7kyu)
+## https://www.codewars.com/kata/589573e3f0902e8919000109
 
 A noob programmer was given two simple tasks: sum and sort the elements of the given array arr = [a1, a2, ..., an].
 
@@ -28,3 +29,6 @@ Input/Output
 
     A sorted array of shuffled.length - 1 elements.
 
+## How to run:
+1. With python: `python3 shuffled_array.py`;
+2. With C: `make shuffled_array.c`; `./shuffled_array.c`.
