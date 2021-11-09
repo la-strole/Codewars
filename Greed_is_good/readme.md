@@ -18,3 +18,6 @@ Example scoring
 !['example'](https://github.com/la-strole/codewars/blob/master/Greed_is_good/images/example.png)
 
 In some languages, it is possible to mutate the input to the function. This is something that you should never do. If you mutate the input, you will not be able to pass all the tests.
+
+### How to run:
+`python3 Greed_is_Good.py` print a result of game.
