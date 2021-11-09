@@ -26,3 +26,7 @@ def balanced_number(number: int):
 
     digit_sequence = [int(_) for _ in str(number)]
     return recursive_function(digit_sequence)
+
+if __name__ == "__main__":
+    test_number = 123456
+    print(f"number {test_number} is {balanced_number(test_number)}")
