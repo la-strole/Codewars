@@ -59,4 +59,4 @@ Explanation:
     Note : The middle digit(s) are 02 .
 
 ### How to run:
-`python3 balanced_number.py` print if `teswt_number` is ballanced.
+`python3 balanced_number.py` print if `test_number` is ballanced.
