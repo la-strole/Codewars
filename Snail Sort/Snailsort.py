@@ -51,6 +51,9 @@ def snail(snail_map):
     return result
 
 
-matrix = [[]]
 
-print(snail(matrix))
+if __name__ == "__main__":
+   
+    array = [[1,2,3],[4,5,6],[7,8,9]]
+
+    print(snail(array))
