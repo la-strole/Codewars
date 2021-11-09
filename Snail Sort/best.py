@@ -8,8 +8,9 @@ def snail(array):
         array = np.rot90(array[1:])
     return m
 
-array = [[1,2,3],
+if __name__ == "__main__":
+    array = [[1,2,3],
          [4,5,6],
          [7,8,9]]
 
-print(snail(array))
+    print(snail(array))
